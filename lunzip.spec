@@ -38,6 +38,9 @@ of KiB larger than the dictionary size used to compress that file.
 %configure
 %make
 
+%check
+make check
+
 %install
 %makeinstall_std
 
