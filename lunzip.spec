@@ -48,3 +48,15 @@ make check
 %{_bindir}/lunzip
 %{_mandir}/man1/lunzip.1*
 %doc AUTHORS ChangeLog NEWS README
+
+
+%changelog
+* Wed Apr 04 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 1.1-1
++ Revision: 789134
+- update to 1.1
+- run make check after build
+
+* Tue Mar 13 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 1.0-1
++ Revision: 784552
+- imported package lunzip
+
