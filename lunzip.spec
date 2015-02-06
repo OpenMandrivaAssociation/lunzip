@@ -1,7 +1,7 @@
 Name:		lunzip
 Summary:	Decompressor for lzip files
 Version:	1.1
-Release:	1
+Release:	2
 License:	GPLv3+
 Group:		Archiving/Compression
 URL:		http://www.nongnu.org/lzip/lunzip.html
