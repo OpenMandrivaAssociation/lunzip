@@ -1,3 +1,5 @@
+%define _empty_manifest_terminate_build 0
+
 Name:		lunzip
 Summary:	Decompressor for lzip files
 Version:	1.12
