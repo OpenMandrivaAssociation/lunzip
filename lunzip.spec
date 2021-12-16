@@ -1,7 +1,7 @@
 Name:		lunzip
 Summary:	Decompressor for lzip files
-Version:	1.1
-Release:	2
+Version:	1.12
+Release:	1
 License:	GPLv3+
 Group:		Archiving/Compression
 URL:		http://www.nongnu.org/lzip/lunzip.html
@@ -36,13 +36,13 @@ of KiB larger than the dictionary size used to compress that file.
 
 %build
 %configure
-%make
+%make_build
 
 %check
 make check
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %{_bindir}/lunzip
