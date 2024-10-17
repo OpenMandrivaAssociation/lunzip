@@ -6,7 +6,7 @@ Version:	1.12
 Release:	1
 License:	GPLv3+
 Group:		Archiving/Compression
-URL:		http://www.nongnu.org/lzip/lunzip.html
+URL:		https://www.nongnu.org/lzip/lunzip.html
 Source0:	http://download.savannah.gnu.org/releases/lzip/%{name}-%{version}.tar.lz
 BuildRequires:	lzip
 
